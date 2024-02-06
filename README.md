@@ -3,9 +3,9 @@ how to run
 2. app.py
 
 how to apply the markdown format in here?
-1. first step
-..1. tgzgfgz
-..2. dzgzzzzztg
+1. first step 
+..1. tgzgfgz 
+..2. dzgzzzzztg 
 ..* does this make sub sub list?
 dgvBDH
 GH
