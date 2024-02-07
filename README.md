@@ -22,19 +22,19 @@
 3. Folder Structure
   
     \- .github    
-  &nbsp;&nbsp;&nbsp;&nbsp;\- workflows\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; github-actions.yml\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.DS_Store\
+  &nbsp;&nbsp;&nbsp;&nbsp; \- workflows\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | github-actions.yml\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .DS_Store\
   \- .ipynb_checkpoints\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eda-checkpoint.ipynb\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  eda-checkpoint.ipynb\
   \- images\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aiap14_mlp_pipeline_flow.png
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aiap14_mlp_pipeline_flow.png\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aiap14_mlp_pipeline_summary_example.png\
   \- src\
   &nbsp;&nbsp;&nbsp;&nbsp;\- *__pycache*__\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprocessor.cpython-310.pyc\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mlp_pipeline.py\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprocessor.py\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| preprocessor.cpython-310.pyc\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mlp_pipeline.py\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; preprocessor.py\
   &nbsp;&nbsp;DS_Store\
   &nbsp;&nbsp;.gitignore\
   &nbsp;&nbsp;README.md\
