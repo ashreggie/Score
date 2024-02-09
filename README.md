@@ -44,9 +44,26 @@
   &nbsp;&nbsp;sample_output_log.txt\
 
 4. Instruction
+
+
   
     For Linux\
-    For Windows
+    With Python activated in your environment:
+
+    Clone this project\
+    git clone https://github.com/ahjimomo/aiap14-ng-kok-woon-685E.git\
+
+    Run the shell bash script:\
+    bash run.sh
+
+    For Windows\
+    Open a python shell in your terminal:
+
+    Clone this project\
+    git clone https://github.com/ahjimomo/aiap14-ng-kok-woon-685E.git\
+
+    Run the shell bash script:\
+    bash run.sh
 
 
 5. Project Pipeline
@@ -64,6 +81,10 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   
-    &nbsp;&nbsp;&nbsp;&nbsp;5.3 Choice of Models
+    &nbsp;&nbsp;&nbsp;&nbsp;5.3 Choice of Models\
+    Item | Price | # In Stock
+    ---|---|---
+    Juice | 1.99 | 739
+    Bananas | 1.89 | 6
     
     &nbsp;&nbsp;&nbsp;&nbsp;5.4 Evaluation of Models
