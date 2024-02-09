@@ -45,8 +45,6 @@
 
 4. Instruction
 
-
-  
     For Linux\
     With Python activated in your environment:
 
@@ -68,14 +66,29 @@
 
 5. Project Pipeline
 
-    &nbsp;&nbsp;&nbsp;&nbsp;5.1 EDA and key findings
+    &nbsp;&nbsp;&nbsp;&nbsp;5.1 EDA and key findings\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Inconsistent format found in CCA and age
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Total number of classmates (male and female) are not the same, 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;furthermore, it has high collinearity between n_male and n_female
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Direct admission, tuition, visual learning and early sleeping hour 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show higher final results
+
     
-    &nbsp;&nbsp;&nbsp;&nbsp;5.2 Feature Engineering
-    &nbsp;&nbsp;&nbsp;&nbsp;Feature | Description | Processed
+    &nbsp;&nbsp;&nbsp;&nbsp;5.2 Feature Engineering\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Create a new feature for the ratio of male classmates to be used in 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lieu of n_male and n_female attributes
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Perfom one-hot encoding to the categorical features: CCA, 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;direct_admission, learning_style, gender, tuition and 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mode_of_transport, and then drop one of the newly created 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns for each attribute
+
+    Feature | Description | Processed
     ---|---|---
     Gender | fzgzg | sggz 
     Color | AFg | SDF
-
   
     &nbsp;&nbsp;&nbsp;&nbsp;5.3 Choice of Models
     
