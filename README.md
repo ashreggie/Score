@@ -70,21 +70,13 @@
 
     &nbsp;&nbsp;&nbsp;&nbsp;5.1 EDA and key findings
     
-    &nbsp;&nbsp;&nbsp;&nbsp;5.2 Feature Engineering\
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    | Feature | Description | Processed |\
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    |----------|--------------|------------|\
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    |  Gender  |  fzgzgzgzgz    s| sggzgzgzz|
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  
-    &nbsp;&nbsp;&nbsp;&nbsp;5.3 Choice of Models\
-    Item | Price | # In Stock
+    &nbsp;&nbsp;&nbsp;&nbsp;5.2 Feature Engineering
+    Feature | Description | Processed
     ---|---|---
-    Juice | 1.99 | 739
-    Bananas | 1.89 | 6
+    Gender | fzgzg | sggz 
+    Color | AFg | SDF
+
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;5.3 Choice of Models
     
     &nbsp;&nbsp;&nbsp;&nbsp;5.4 Evaluation of Models
