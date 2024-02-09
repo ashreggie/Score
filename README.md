@@ -71,7 +71,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;5.1 EDA and key findings
     
     &nbsp;&nbsp;&nbsp;&nbsp;5.2 Feature Engineering
-    Feature | Description | Processed
+    &nbsp;&nbsp;&nbsp;&nbsp;Feature | Description | Processed
     ---|---|---
     Gender | fzgzg | sggz 
     Color | AFg | SDF
